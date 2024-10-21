@@ -6,8 +6,10 @@
 
 body {
     background-image: url('https://cdn.discordapp.com/attachments/1295205145143017472/1295205230383861830/glcimage.jpg?ex=670dcd5e&is=670c7bde&hm=e3290afec0a1e9f44cdcaadfa3f7ae519f0391c29861585eb3b7b4ad9d8a04f9&'); /* Replace with your image file */
-    background-size: cover; /* Makes sure the image covers the whole area */
+    background-attachment: fixed;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     margin: 0;
     display: flex;
